@@ -5,7 +5,7 @@ console.log(
 
 
 // step1.
-let x = 7;
+let x = math.ciel(math.random() * 10);
 input = prompt("please input number");
 console.log(input);
 
@@ -24,7 +24,7 @@ else(input == x)
 
 // step2
 
-month = prompt( "Enter your Birth Month: ");
+let month = prompt( "Enter your Birth Month: ");
 console.log(month);
 
 switch(month){
@@ -98,13 +98,16 @@ switch(typeId){
 switch(colorId){
   case "BL":
   color = "Black";
-  case "BL": 
+case "BL": 
   color = "Blue";
-  case "RD":
+  break;
+case "RD":
   color = "Red";
-  case "PU":
+  break;
+case "PU":
   color = "Purple";
-  default:
+  break;
+default:
   color = "White";
 }
   console.log(color);
@@ -113,12 +116,16 @@ switch(colorId){
 switch(sizeId){
 case "S": 
   size = "Small";
+  break;
 case "M":
   size = "Medium";
+  break;
 case "L": 
   size = "Large";
+  break;
 case "XL":
   size = "Extra Large";
+  break;
 default:
   size = "One Size Fits All";
 }
