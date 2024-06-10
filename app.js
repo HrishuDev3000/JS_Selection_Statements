@@ -6,7 +6,7 @@ console.log(
 
 // step1.
 let x = math.ciel(math.random() * 10);
-input = prompt("please input number");
+let input = prompt("please input number");
 console.log(input);
 
 if(input < x)
