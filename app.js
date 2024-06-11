@@ -5,7 +5,7 @@ console.log(
 
 
 // step1.
-let x = math.ciel(math.random() * 10);
+let x = Math.ciel(Math.random() * 10);
 let input = prompt("please input number");
 console.log(input);
 
